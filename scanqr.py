@@ -21,7 +21,7 @@ try:
         decodedObjects = pyzbar.decode(image)
         for obj in decodedObjects:
             print("We found data! :", obj.data)
-            cv2.putText(image, str(obj.data), (50, 50), font, 2,
+            cv2.putText(image, str(obj.data), (40, 40), font, 2,
                         (255, 0, 0), 3)
         cv2.imshow('frame',image)
         #time.sleep(1)
