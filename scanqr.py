@@ -8,7 +8,7 @@ font = cv2.FONT_HERSHEY_PLAIN
 
 '''Settings for picamera'''
 cam = picamera.PiCamera()
-cam.resolution = (640, 480)
+cam.resolution = (640, 480) #Adjust to suit your needs
 
 '''Settings for other cameras. (x)=cam no.'''
 #cam = cv2.VideoCapture(0)
